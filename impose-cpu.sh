@@ -12,7 +12,6 @@ sudo dnf install libGL libgomp opencv -y
 python3 -m venv ~/mmpose_env
 source ~/mmpose_env/bin/activate
 
-python -m pip install --upgrade pip
 pip install wheel
 
 # Install PyTorch (CPU version - modify for GPU)
